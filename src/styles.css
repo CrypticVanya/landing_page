@@ -1,0 +1,155 @@
+:root {
+    --Main-color: #1F2937;
+    --secondary-color: #3882F6;
+    --alt-color: #e5e7eb;
+}
+
+body{
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+.header {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--Main-color);
+    color: white;
+}
+
+.header-top {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.links{
+    display: flex;
+    list-style-type: none;
+    gap: 16px;
+    color: white;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.header-bottom {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+
+.right-one-bottom img {
+    width: auto;
+    height: 120px;
+    border: 2px solid var(--secondary-color);
+    border-radius: 10px;
+}
+
+.left-one-bottom-text {
+    font-size: 48px;
+}
+
+.left-one-bottom-text2 {
+    font-size: 12px;
+}
+
+.container {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+}
+
+.container-one {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 16px;
+    padding: 16px;
+}
+
+.top-one {
+    font-size: 36px;
+}
+
+.bottom-one {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 36px;
+    font-style: bold;
+}
+
+.left-one-bottom button {
+    background-color: var(--secondary-color);
+    border-radius: 5px;
+    border: none;
+    color: white;
+    padding: 4px;
+}
+
+.img-one img {
+    width: auto;
+    height: 200px;
+    border: 2px solid var(--secondary-color);
+    border-radius: 10px;
+}
+
+.container-two {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--alt-color);
+    font-size: 36px;
+    font-style: italic;
+    padding: 16px;
+}
+
+.container-three {
+    flex: 1;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+}
+
+.three-wrapper {
+    display: flex;
+    gap: 100px;
+    background-color: var(--secondary-color);
+    margin: 16px;
+    padding: 48px;
+    border-radius: 10px;
+}
+
+.three-wrapper button {
+    background-color: var(--secondary-color);
+    color: white;
+    border: 1.5px solid white;
+    border-radius: 5px;
+    padding: 4px;
+}
+
+.footer {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: whitesmoke;
+    background-color: var(--Main-color);
+    margin: 0;
+    padding: 0;
+}
